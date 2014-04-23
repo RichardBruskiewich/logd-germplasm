@@ -10,6 +10,7 @@
     dcterms:title "GeneSys"@en;
     dcterms:description """Genesys is a global portal to information about 
     plant genetic resources for food and agriculture."""@en;
+    void:sparqlEndpoint <http://data.bioversityinternational.org/genesys-scraped/>;
     void:triples 13354152  .
 
 <http://data.bioversityinternational.org/collectingmissions/> a void:Dataset ;
@@ -19,8 +20,10 @@
     collected around the world during Bioversity International* supported missions. 
     About 150,000 samples are currently geo-referenced and can be displayed on 
     the map to the right."""@en;
+    void:sparqlEndpoint <http://data.bioversityinternational.org/collectingmissions/>;
     void:triples 6755639  .
 
 :genesys2collectingmissions a void:Linkset ;
     void:subjectsTarget <http://www.genesys-pgr.org/> ;
-    void:objectsTarget <http://data.bioversityinternational.org/collectingmissions/> .
+    void:objectsTarget <http://data.bioversityinternational.org/collectingmissions/>;
+    void:triples 40647 .
