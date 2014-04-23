@@ -21,9 +21,11 @@
     About 150,000 samples are currently geo-referenced and can be displayed on 
     the map to the right."""@en;
     void:sparqlEndpoint <http://data.bioversityinternational.org/collectingmissions/>;
+    void:dataDump <https://logd-germplasm.googlecode.com/git/collecting-missions-11-04-2014.nt.gz>;
     void:triples 6755639  .
 
 :genesys2collectingmissions a void:Linkset ;
     void:subjectsTarget <http://www.genesys-pgr.org/> ;
     void:objectsTarget <http://data.bioversityinternational.org/collectingmissions/>;
+    void:dataDump <https://logd-germplasm.googlecode.com/git/links-genesys-missions.jsonld.gz>;
     void:triples 40647 .
